@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Menor de Idade</title>
+</head>
+<body>
+    <h1> Ops! <h1 th:text="${nome}"/> você  não pode constinuar a inscrição</h1>
+    <p> Você só tem <span th:text="${idade}"/> de idade e precisa ser maior de 18 anos para se inscrever</p>
+<p> Volte daqui a <span th:text="${faltaIdade}"/> anos</p>
+</body>
+</html>
